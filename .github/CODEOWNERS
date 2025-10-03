@@ -1,13 +1,13 @@
 # CODEOWNERS file - test-script-python
-# Solo estos usuarios pueden aprobar y mergear cambios
+# Solo estos teams pueden aprobar y mergear cambios
 
-# Regla global - todo requiere aprobación de estos usuarios
-* @xavimndz225
+# Regla global - todo requiere aprobación de estos teams
+* @Test-org-tinkin/Backend_merge_pr
 
 # Archivos críticos
-*.yml @xavimndz225
-*.yaml @xavimndz225
-*.json @xavimndz225
-.github/** @xavimndz225
-Dockerfile @xavimndz225
-docker-compose*.yml @xavimndz225
+*.yml @Test-org-tinkin/Backend_merge_pr
+*.yaml @Test-org-tinkin/Backend_merge_pr
+*.json @Test-org-tinkin/Backend_merge_pr
+.github/** @Test-org-tinkin/Backend_merge_pr
+Dockerfile @Test-org-tinkin/Backend_merge_pr
+docker-compose*.yml @Test-org-tinkin/Backend_merge_pr
